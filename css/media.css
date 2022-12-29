@@ -1,0 +1,69 @@
+@media (max-width: 1440px) {
+  #hero .hero--img__desc--our {
+    margin-left: 620px;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero--img__desc--ime {
+    margin-left: 280px;
+  }
+  #hero .hero--img__desc--our {
+    margin-left: 400px;
+  }
+  #sell .sell--block {
+    width: 1100px;
+  }
+  #sell .sell--block__sqaure {
+    width: 290px;
+  }
+  #top .top {
+    flex-direction: column;
+  }
+  #top .top--block {
+    margin-bottom: 10px;
+  }
+  #block .block {
+    flex-direction: column;
+  }
+  #block .block--title {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  #navbar .navbar--btn {
+    margin-right: 130px;
+  }
+  #hero .hero {
+    flex-direction: column;
+  }
+  #hero .hero--img {
+    margin-top: 30px;
+  }
+  #learn .learn--title__btn button {
+    margin-right: 30px;
+  }
+  #learn .learn--logo {
+    flex-direction: column;
+  }
+  #learn .learn--logo__block2 {
+    margin-top: 20px;
+  }
+  #sell .sell {
+    flex-direction: column;
+  }
+  #sell .sell--block {
+    width: 85%;
+  }
+  #block .block {
+    flex-direction: column;
+  }
+  #block .block--title {
+    margin-bottom: 20px;
+  }
+  #footer .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
