@@ -1,6 +1,6 @@
 @media (max-width: 1440px) {
-  #hero .hero--img__desc--our {
-    margin-left: 620px;
+  .container {
+    width: 90%;
   }
 }
 @media (max-width: 1200px) {
@@ -18,7 +18,7 @@
     flex-direction: column;
   }
   #top .top--block {
-    margin-left: 10px;
+    margin-top: 10px;
   }
   #blog .blog {
     flex-direction: column;
@@ -29,7 +29,7 @@
 }
 @media (max-width: 1024px) {
   #navbar .navbar--btn {
-    margin-right: 10px;
+    margin-right: 130px;
   }
   #hero .hero {
     flex-direction: column;
@@ -55,7 +55,6 @@
   }
   #footer .footer {
     flex-direction: column;
-    text-align: center;
   }
 }
 @media (max-width: 992px) {
@@ -66,6 +65,7 @@
     flex-direction: column;
     width: 460px;
     margin-left: 280px;
+    height: 860px;
   }
   #sell .sell--block__sqaure {
     margin-top: 10px;
@@ -111,11 +111,112 @@
   }
   #footer .footer {
     margin-right: 120px;
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
+  #navbar .navbar--nav {
+    display: none;
+  }
   #navbar .navbar--menu {
     display: block;
+  }
+  #sell .sell--block {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 576px) {
+  #navbar .navbar--btn {
+    margin-right: 20px;
+  }
+  #sell .sell h1 {
+    margin-left: 10px;
+  }
+  #sell .sell--block {
+    margin-left: 5px;
+  }
+  #sell .sell--block__sqaure {
+    margin-top: 10px;
+  }
+  #top .top--block {
+    margin-right: 1px;
+  }
+  #top button {
+    margin-left: 150px;
+  }
+  #learn .learn--logo__block {
+    width: 514px;
+    margin-left: 130px;
+  }
+  #hero .hero--img {
+    width: 90%;
+  }
+  #hero .hero--img__desc {
+    margin-right: 1px;
+  }
+}
+@media (max-width: 450px) {
+  #hero .hero--img__desc {
+    width: 90%;
+  }
+  #hero .hero--img__desc--our {
+    margin-left: 180px;
+  }
+  #hero .hero--img__desc--ime {
+    margin-left: 180px;
+  }
+  #hero .hero--logo__block {
+    width: 90%;
+  }
+  #hero .hero--logo__btn {
+    margin-left: 60px;
+  }
+  #hero .hero--logo h1 {
+    margin-left: 60px;
+  }
+  #hero .hero--logo p {
+    margin-left: 60px;
+  }
+  #sell .sell--block {
+    width: 90%;
+  }
+  #sell .sell h1 {
+    margin-left: 10px;
+  }
+  #learn .learn--logo__block {
+    width: 90%;
+    height: 90%;
+  }
+  #learn .learn--logo__block img {
+    width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  #navbar .navbar--btn {
+    margin-left: 60px;
+  }
+  #navbar .navbar--btn button {
+    margin-top: 10px;
+  }
+  #hero .hero--img__desc img {
+    width: 90%;
+  }
+  #learn .learn--logo__block--title {
+    display: none;
+  }
+  #sell .sell h1 {
+    margin-left: 10px;
+  }
+  #top .top--block {
+    width: 90%;
+  }
+  #top .top--block__title--art {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--logo h1 {
+    margin-left: 50px;
   }
 }
 
